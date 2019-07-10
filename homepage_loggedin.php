@@ -32,9 +32,11 @@
             <div class="row row21" >
                 <p>Write something here</p>
             </div>
-            <div class="row row22" ></div>
-            <div class="row row23" >
-                <p>Post</p>
+            <div class="row row22" >
+                 <form method="post" action ="submit.php">
+                    <textarea name="address"></textarea>
+                    </br><input  class="submit" type="submit" name="submit" value="submit" />
+                 </form>
             </div>
         </div>
         <div class="row row3" >

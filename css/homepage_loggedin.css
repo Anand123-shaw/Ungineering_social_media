@@ -93,14 +93,15 @@ p,span,h4,a{
     margin-bottom:3%;
     margin-left:1%;
 }
-.row22{
+textarea{
     height:150px;
+    width:98.4%;
     border: solid 0.5px rgb(204,198,198);
     background-color: white;
     border-radius:3px;
     
 }
-.row23 > p{
+.submit{
     border: solid 1px red;
     width:38%;
     border-radius:2px;
@@ -113,8 +114,7 @@ p,span,h4,a{
     padding-left:2%;
     padding-right:2%;
     margin-top:3%;
-    margin-left: auto;
-    margin-right:0px;
+    margin-left:61.7%;
 }
 .row3{
     padding-bottom:25%;
