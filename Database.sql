@@ -14,7 +14,7 @@ CREATE TABLE statuses(
     id int NOT NULL AUTO_INCREMENT,
     user_id int NOT NULL,
     status varchar(255) NOT NULL,
-    created_day varchar(255) NOT NULL
+    created_day varchar(255) NOT NULL,
     created_date varchar(255) NOT NULL,
     created_time varchar(255) NOT NULL,
     PRIMARY KEY (id),
