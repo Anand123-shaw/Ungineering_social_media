@@ -34,7 +34,7 @@
             </div>
             <div class="row row22" >
                  <form method="post" action ="submit.php">
-                    <textarea name="address"></textarea>
+                    <textarea name="status"></textarea>
                     </br><input  class="submit" type="submit" name="submit" value="submit" />
                  </form>
             </div>
