@@ -21,7 +21,7 @@ p,span,h4,a{
     padding-bottom:20px;
 }
 .row11{
-    padding-bottom:12px;
+    padding-bottom:19px;
     padding-top:25px;
     width:260px;
     margin: auto;
@@ -36,7 +36,6 @@ p,span,h4,a{
     text-align: left;
 }
 .row11 > .col:nth-child(1) > img{
- 
     margin:0px;
     width:65%;
     position: relative;
@@ -52,7 +51,6 @@ p,span,h4,a{
 }
 .row112 > span{
     position: relative;
-    right:11px;
     margin:0px;
     font-size:8px;
 }
