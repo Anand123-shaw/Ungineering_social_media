@@ -18,82 +18,85 @@ p,span,h4,a{
 }
 .row1{
     background-color: white;
-    margin-bottom:7%;
+    padding-bottom:20px;
 }
 .row11{
-    padding-bottom:4%;
-    padding-top:8%;
+    padding-bottom:12px;
+    padding-top:25px;
+    width:260px;
+    margin: auto;
 }
 .row11 > .col:nth-child(1){
-    width:40%;
+    width:30%;
     text-align: right;
 }
 .row11 > .col:nth-child(2){
-    width:60%;
-    padding-top:3%;
+    width:70%;
+    padding-top:11px;
+    text-align: left;
 }
 .row11 > .col:nth-child(1) > img{
-    width:35%;
+ 
     margin:0px;
-    padding-right:8%;
+    width:65%;
+    position: relative;
+    left:2px;
 }
 .row111 > span{
     margin:0px;
-    font-size:24px;
+    font-size:25px;
     font-weight: bold;
-    top:5px;
-    right:13px;
+    top:6px;
+    right:2px;
     position: relative;
 }
 .row112 > span{
     position: relative;
-    right:11px;
     margin:0px;
     font-size:8px;
+}
+.row12{
+    padding-left:30px;
+    padding-right:30px;
 }
 .row12 > .col{
     width:50%;
 }
 .row12 > .col:nth-child(1) > p{
     color:rgb(208,60,48);
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-left: auto;
-    margin-right:4%;
+    margin:0px;
+    margin-right:7px;
 }
 .row12 > .col:nth-child(2) > p{
     color:white;
     background-color:rgb(234,74,76);
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-left:4%;
-    margin-right: auto;
+    margin:0px;
+    margin-left:7px;
 }
 .row12 p{
     border: solid 1px red;
     border-radius:2px;
     font-size:16px;
     text-align: center;
-    padding-top:4%;
-    padding-bottom:4%;
-    padding-left:3%;
-    padding-right:3%;
-    width:70%;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:3px;
+    padding-right:3px;
 }
 .row2{
     padding-bottom:25%;
     background-color:rgb(248,248,248);
+    padding-left:10px;
+    padding-right:10px;
 }
 .row21,.row22,.row23{
     border: solid 0.5px rgb(204,198,198);
     border-radius:4px;
     background-color:rgb(255,255,255);
-    margin-left:3.3%;
-    margin-right:3.3%;
-    margin-top:4%;
-    margin-bottom:4%;
-    padding-left:6%;
-    padding-right:6%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:19.5px;
+    padding-right:19.5px;
 }
 .row211,.row221,.row231 > h4{
     color:rgb(65,65,65);
@@ -103,32 +106,32 @@ p,span,h4,a{
     text-align: left;
     color:rgb(76,76,76);
     font-size:17px;
-    margin-bottom:10%;
+    margin-bottom:30px;
 }
 .row213,.row223,.row233 > p{
     text-align: right;
     font-style: italic;
     color:rgb(55,55,55);
     font-size:15px;
-    margin-bottom:10%;
+    margin-bottom:30px;
 }
 .row3{
     background-color:rgb(55,55,55);
-    padding-left:6.95%;
-    padding-right:6.95%;
-    padding-top:13%;
-    padding-bottom:13%;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:50px;
+    padding-bottom:50px;
 } 
 .row31 > p{
     font-size:17px;
-    padding-left:1%;
+    padding-left:3px;
     margin:0px;
     margin-left:0px;
     color: white;
 }
 .row32{
-    margin-bottom:25%;
-    margin-top:5%;
+    margin-bottom:90px;
+    margin-top:15px;
 }
 .row32 > .col:nth-child(1){
     width:14%;
@@ -144,7 +147,7 @@ p,span,h4,a{
 }
 .row33,.row34{
     text-align: right;
-    padding-bottom:1%;
+    padding-bottom:3px;
 }
 .row33 > p{
     font-size:14px;
