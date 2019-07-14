@@ -1,0 +1,176 @@
+*{
+    box-sizing:border-box;
+}
+
+.row{
+    box-sizing: border-box;
+}
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.col{
+    box-sizing: border-box;
+    float: left;
+}
+p,span,h4,a{
+    font-family: "Open Sans",sans-serif;
+}
+.header{
+    background-color: white;
+    margin-bottom:5%;
+}
+.row11{
+    padding-bottom:8%;
+    padding-top:8%;
+}
+.row11 > .col:nth-child(1){
+    width:40%;
+    text-align: right;
+}
+.row11 > .col:nth-child(2){
+    width:60%;
+    padding-top:3%;
+    font-size:8px;
+}
+.row11 > .col:nth-child(1) > img{
+    width:37%;
+    height:60px;
+    margin:0px;
+    padding-right:8%;
+}
+
+.row111{
+    font-size:25px;
+}
+
+.header::after{
+    content: "";
+    display: block;
+    clear:both;
+
+}
+
+
+body{
+    margin:0px;
+}
+
+.main{
+    margin:0px 8px;
+    border:solid 1px rgb(230,230,230);
+}
+
+.usertype {
+    padding:0px 25px;
+    margin:25px 0px;
+}
+
+.usertype::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.user_col{
+    width:50%;
+    float:left;
+}
+
+.existing > a{
+    color:rgb(252,35,70);
+}
+
+.new{
+    text-size:25px;
+    text-decoration:underline;
+}
+
+.new{
+    text-align:right;
+}
+
+.create_account{
+    text-align:left;
+    padding:15px 25px 60px;
+    background-color:rgb(244,244,244);   
+}
+p{
+    margin-block-start:28px;
+    margin-block-end:8px;
+}
+
+input[type=text],input[type=password]{
+    border:solid 1px red;
+    width:100%;
+    height:38px;
+    border-radius:5px;
+}
+
+.regsub{
+    background-color:rgb(252,35,70);
+    color:white;
+    width:100%;
+    margin:15px 0px;
+    height:38px;
+    border-radius:2px;
+    font-size:16px;
+}
+
+.existing_user > a{
+    color:rgb(252,35,70);
+}
+
+form{
+    margin-bottom:0px;
+}
+
+
+
+.row4{
+    background-color:rgb(55,55,55);
+    padding-left:6.95%;
+    padding-right:6.95%;
+    padding-top:13%;
+    padding-bottom:13%;
+} 
+.row41 > p{
+    font-size:17px;
+    padding-left:1%;
+    margin:0px;
+    margin-left:0px;
+    color: white;
+}
+.row42{
+    margin-bottom:25%;
+    margin-top:5%;
+}
+.row42 > .col:nth-child(1){
+    width:14%;
+}
+.row42 > .col:nth-child(2){
+    width:14%;
+}
+.row42 > .col:nth-child(1) > a > img{
+    width:78%;
+}
+.row42 > .col:nth-child(2) > a > img{
+    width:90%;
+}
+.row43,.row44{
+    text-align: right;
+    padding-bottom:1%;
+}
+.row43 > p{
+    font-size:14px;
+    margin:0px;
+    color: white;    
+}
+.row44 > a{
+    font-size:17px; 
+    color: white;
+    text-decoration: none;
+}
+
+
