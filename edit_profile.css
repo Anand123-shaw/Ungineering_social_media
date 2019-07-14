@@ -1,28 +1,25 @@
 
 
 .ro1 {
-    border: solid 1px black;
     box-sizing: border-box;
-    height: 100px; 
+    height: 100px;
 }
-
 
 .logo {
     box-sizing: border-box;
     display: inline-block;
     float: left;
     width: 35%;
-    height: 100px;
+    
     text-align: right;
 }
 img{
-    width:35%;
+    width:45%;
     margin:0px;
-    padding-right:8%;
-    padding-top: 15%;
+    padding-right:1%;
+    padding-top: 6%;
 }
 .col2 {
-    border: solid 1px black;
     box-sizing: border-box;
     display: inline-block;
     float: left;
@@ -30,12 +27,28 @@ img{
     height: 100px;
 }
 .title {
-    border: solid 1px black;
     box-sizing: border-box;
     height: 50px;
+    padding-top: 10px;
+}
+.title > span{
+    margin:0px;
+    font-size:25px;
+    font-weight: bold;
+    top:14px;
+    right:5px;
+    position: relative;
+}
+.heading {
+    padding-left:5px;
+}
+.heading > span{
+    position: relative;
+    right:11px;
+    margin:0px;
+    font-size:8px;
 }
 .ro2 {
-    border: solid 1px black;
     box-sizing: border-box;
     height: 60px;
 }
