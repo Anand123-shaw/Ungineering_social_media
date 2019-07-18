@@ -12,21 +12,21 @@
             <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
         </head>
         <body>
-            <div class="row row1" >
-                <div class="row row11">
+            <div class="row header" >
+                <div class="row logo">
                     <div class="col" >
                         <a href="homepage.php"><img src="img/ungineering_logo.svg"/></a>
                     </div>
                     <div class="col" >
-                        <div class="row row111" >
+                        <div class="row tag_name" >
                             <span style="color: rgb(233,69,55)">un</span><span>gineering</span>
                         </div>
-                        <div class="row row112" >
+                        <div class="row tag_line" >
                             <span>A </span><span style="color: rgb(233,69,55)">bit</span><span> of knowledge is good.A</span><span style="color: rgb(233,69,55)"> byte </span><span>is better</span>
                         </div>
                     </div> 
                 </div>
-                <div class="row row12" >
+                <div class="row button_section" >
                     <div class="col" >
                         <a href="login_form.html"><p>Login</p></a>
                     </div>
@@ -35,45 +35,14 @@
                     </div>
                 </div> 
             </div>
-            <div class="row row2" >
+            <div class="row container" >
         
-                                                                    
-
-            <?php
-                include('db.php');
-    
-                $sql="SELECT * FROM statuses";
-                $result=mysqli_query($conn,$sql);
-                $sql1="select users.name from users INNER JOIN statuses on users.id=statuses.user_id order by statuses.created_time ASC";
-                $result1=mysqli_query($conn,$sql1);
-
-    
-                if(! $result){
-                    die("Error:".$sql."<br/>".mysqli_error($conn));
-                }
-                while ( $row=mysqli_fetch_array($result)){
-                    $row1=mysqli_fetch_array($result1);
-                ?>
-            
-                <div class="row row21" >
-                    <div class="row row211" >
-                        <h4><?php echo $row1["name"]; ?></h4>
-                    </div>
-                    <div class="row row212" >
-                        <p><?php echo $row["status"]; ?></p>
-                    </div>
-                    <div class="row row213" >
-                        <p><?php echo "Time: " . $row["created_time"] . " Hrs IST | " . $row["created_date"]; ?></p>
-                    </div>
-                </div>
-                <?php 
-                }
-                mysqli_close($conn);
-            ?>  
-        
+                <?php
+                    include('fetch.php');
+                ?>      
                                                       
             </div>
-            <div class="row row3" >
+            <div class="row row3 footer" >
                 <div class="row row31" >
                     <p>Connect with us at</p>
                 </div>
@@ -109,21 +78,21 @@
             <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         </head>
         <body>
-            <div class="row row1" >
-                <div class="row row11">
+            <div class="row header" >
+                <div class="row logo">
                     <div class="col" >
                         <a href="homepage.php"><img src="img/ungineering_logo.svg"/></a>
                     </div>
                     <div class="col" >
-                        <div class="row row111" >
+                        <div class="row tag_name" >
                             <span style="color: rgb(233,69,55)">un</span><span>gineering</span>
                         </div>
-                        <div class="row row112" >
+                        <div class="row tag_line" >
                             <span>A </span><span style="color: rgb(233,69,55)">bit</span><span> of knowledge is good.A</span><span style="color: rgb(233,69,55)"> byte </span><span>is better</span>
                         </div>
                     </div> 
                 </div>
-                <div class="row row12" >
+                <div class="row button_section" >
                     <div class="col" >
                         <a href="#"><p>My Dashboard</p></a>
                     </div>
@@ -143,46 +112,14 @@
                     </form>
                 </div>
             </div>
-            <div class="row row3" >
+            <div class="row container" >
         
-        
-            <?php
-                include('db.php');
-    
-                $sql="SELECT * FROM statuses";
-                $result=mysqli_query($conn,$sql);
-                $sql1="select users.name from users INNER JOIN statuses on users.id=statuses.user_id order by statuses.created_time ASC";
-                $result1=mysqli_query($conn,$sql1);
-
-    
-                if(! $result){
-                    die("Error:".$sql."<br/>".mysqli_error($conn));
-                }
-                while ( $row=mysqli_fetch_array($result)){
-                    $row1=mysqli_fetch_array($result1);
-                    if($row["status"]!=NULL)
-                    {
+                <?php
+                    include('fetch.php');
                 ?>
-            
-                    <div class="row row31" >
-                        <div class="row row311" >
-                            <h4><?php echo $row1["name"]; ?></h4>
-                        </div>
-                        <div class="row row312" >
-                            <p><?php echo $row["status"]; ?></p>
-                        </div>
-                        <div class="row row313" >
-                            <p><?php echo "Time: " . $row["created_time"] . " Hrs IST | " . $row["created_date"]; ?></p>
-                        </div>
-                    </div>
-                <?php 
-                    }    
-                }
-                mysqli_close($conn);
-            ?>  
            
             </div>
-            <div class="row row4" >
+            <div class="row row4 footer" >
                 <div class="row row41" >
                     <p>Connect with us at</p>
                 </div>
