@@ -3,12 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/homepage_loggedin.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <div class="row row1" >
             <div class="row row11">
                 <div class="col" >
-                    <img src="img/ungineering_logo.svg"/>
+                    <a href="homepage.php"><img src="img/ungineering_logo.svg"/></a>
                 </div>
                 <div class="col" >
                     <div class="row row111" >
@@ -21,10 +23,10 @@
             </div>
             <div class="row row12" >
                 <div class="col" >
-                    <p>My Dashboard</p>
+                    <a href="#"><p>My Dashboard</p></a>
                 </div>
                 <div class="col" >
-                    <p>Logout</p>
+                    <a href="homepage.php"><p>Logout</p></a>
                 </div>
             </div>
         </div>
@@ -33,7 +35,7 @@
                 <p>Write something here</p>
             </div>
             <div class="row row22" >
-                 <form method="post" action ="submit.php">
+                 <form method="post" action ="homepage_loggedin_submit.php">
                     <textarea name="status"></textarea>
                     </br><input  class="submit" type="submit" name="submit" value="submit" />
                  </form>
@@ -80,17 +82,17 @@
             </div>
             <div class="row row42" >
                 <div class="col">
-                <a href="#" ><img src="img/logo-youtube-png-clipart-11.png"/></a>
+                <a href="www.youtube.com" ><img src="img/logo-youtube-png-clipart-11.png"/></a>
                 </div>
                 <div class="col">
-                <a href="#" ><img src="img/facebook_circle_darkblue-512.png"/></a>
+                <a href="www.facebook.com" ><img src="img/facebook_circle_darkblue-512.png"/></a>
                 </div>
             </div>
             <div class="row row43" >
                     <p>For any questions/doubts,write us on -</p>
             </div>
             <div class="row row44" >
-                <a href="#">queries@Ungneering.com</a>
+                <a href="www.ungineering.com">queries@Ungneering.com</a>
             </div>
         </div>
     </body>

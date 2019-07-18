@@ -15,6 +15,7 @@ body{
 }
 p,span,h4,a{
     font-family: "Open Sans",sans-serif;
+    text-decoration: none;
 }
 .row1{
     background-color: white;
@@ -35,7 +36,7 @@ p,span,h4,a{
     padding-top:11px;
     text-align: left;
 }
-.row11 > .col:nth-child(1) > img{
+.row11 > .col:nth-child(1) > a > img{
     margin:0px;
     width:65%;
     position: relative;
@@ -61,12 +62,12 @@ p,span,h4,a{
 .row12 > .col{
     width:50%;
 }
-.row12 > .col:nth-child(1) > p{
+.row12 > .col:nth-child(1) > a > p{
     color:rgb(208,60,48);
     margin:0px;
     margin-right:7px;
 }
-.row12 > .col:nth-child(2) > p{
+.row12 > .col:nth-child(2) > a > p{
     color:white;
     background-color:rgb(234,74,76);
     margin:0px;
@@ -83,12 +84,12 @@ p,span,h4,a{
     padding-right:3px;
 }
 .row2{
-    padding-bottom:25%;
+    padding-bottom:90px;
     background-color:rgb(248,248,248);
     padding-left:10px;
     padding-right:10px;
 }
-.row21,.row22,.row23{
+.row21{
     border: solid 0.5px rgb(204,198,198);
     border-radius:4px;
     background-color:rgb(255,255,255);
@@ -97,17 +98,17 @@ p,span,h4,a{
     padding-left:19.5px;
     padding-right:19.5px;
 }
-.row211,.row221,.row231 > h4{
+.row211 > h4{
     color:rgb(65,65,65);
     font-size:20px;
 }
-.row212,.row222,.row232 > p{
+.row212 > p{
     text-align: left;
     color:rgb(76,76,76);
     font-size:17px;
     margin-bottom:30px;
 }
-.row213,.row223,.row233 > p{
+.row213 > p{
     text-align: right;
     font-style: italic;
     color:rgb(55,55,55);
@@ -133,16 +134,16 @@ p,span,h4,a{
     margin-top:15px;
 }
 .row32 > .col:nth-child(1){
-    width:14%;
+    width:45px;
 }
 .row32 > .col:nth-child(2){
-    width:14%;
+    width:45px;
 }
 .row32 > .col:nth-child(1) > a > img{
-    width:78%;
+    width:35px;
 }
 .row32 > .col:nth-child(2) > a > img{
-    width:90%;
+    width:39px;
 }
 .row33,.row34{
     text-align: right;

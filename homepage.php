@@ -10,7 +10,7 @@
         <div class="row row1" >
             <div class="row row11">
                 <div class="col" >
-                    <img src="img/ungineering_logo.svg"/>
+                    <a href="homepage.php"><img src="img/ungineering_logo.svg"/></a>
                 </div>
                 <div class="col" >
                     <div class="row row111" >
@@ -23,47 +23,50 @@
             </div>
             <div class="row row12" >
                 <div class="col" >
-                    <p>Login</p>
+                    <a href="login_form.html"><p>Login</p></a>
                 </div>
                 <div class="col" >
-                    <p>New User</p>
+                    <a href="smregister.html"><p>New User</p></a>
                 </div>
-            </div>
+            </div> 
         </div>
         <div class="row row2" >
+        
+                                                                    
+
+        <?php
+            include('db.php');
+            $sql="SELECT * FROM statuses";
+            $result=mysqli_query($conn,$sql);
+            $sql1="select users.name from users INNER JOIN statuses on users.id=statuses.user_id order by statuses.created_time ASC";
+            $result1=mysqli_query($conn,$sql1);
+
+    
+            if(! $result){
+                die("Error:".$sql."<br/>".mysqli_error($conn));
+            }
+            while ( $row=mysqli_fetch_array($result)){
+                $row1=mysqli_fetch_array($result1);
+            ?>
+            
             <div class="row row21" >
                 <div class="row row211" >
-                <h4>Name</h4>
+                <h4><?php echo $row1["name"]; ?></h4>
                 </div>
                 <div class="row row212" >
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisi fringilla, fermentum ligula ac, commodo sem. Sed molestie feugiat justo nec malesuada. Nulla consectetur gravida dui id vulputate.</p>
+                    <p><?php echo $row["status"]; ?></p>
                 </div>
                 <div class="row row213" >
-                <p>Time: 24:00 Hrs IST | 26 Dec</p>
+                <p><?php echo "Time: " . $row["created_time"] . " Hrs IST | " . $row["created_date"]; ?></p>
                 </div>
             </div>
-            <div class="row row22" >
-                <div class="row row221" >
-                <h4>Name</h4>
-                </div>
-                <div class="row row222" >
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisi fringilla, fermentum ligula ac, commodo sem. Sed molestie feugiat justo nec malesuada. Nulla consectetur gravida dui id vulputate.</p>
-                </div>
-                <div class="row row223" >
-                <p>Time: 24:00 Hrs IST | 26 Dec</p>
-                </div>
-            </div>
-            <div class="row row23" >
-                <div class="row row231" >
-                <h4>Name</h4>
-                </div>
-                <div class="row row232" >
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id nisi fringilla, fermentum ligula ac, commodo sem. Sed molestie feugiat justo nec malesuada. Nulla consectetur gravida dui id vulputate.</p>
-                </div>
-                <div class="row row233" >
-                <p>Time: 24:00 Hrs IST | 26 Dec</p>
-                </div>
-            </div>
+            <?php 
+               
+            }
+            mysqli_close($conn);
+        ?>  
+        
+                                                      
         </div>
         <div class="row row3" >
             <div class="row row31" >
