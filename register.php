@@ -1,18 +1,20 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="smregister.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/register.css">
     </head>
 
     <body>
-        <div class="header" >
+        <div class="row header" >
             <div class="row row11">
                 <div class="col" >
-                    <img src="images/ungineering_logo.svg"/>
+                    <img src="img/ungineering_logo.svg"/>
                 </div>
                 <div class="col" >
                     <div class="row row111" >
-                        <b><span style="color: rgb(233,69,55)">un</span><span>gineering</span></b>
+                        <span style="color: rgb(233,69,55)">un</span><span>gineering</span>
                     </div>
                     <div class="row row112" >
                         <span>A </span><span style="color: rgb(233,69,55)">bit</span><span> of knowledge is good.A</span><span style="color: rgb(233,69,55)"> byte </span><span>is better</span>
