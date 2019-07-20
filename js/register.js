@@ -31,7 +31,7 @@ var registration_success = function (response) {
 
     if (response.success) {
         alert(response.message);
-        window.location.href = "homepage.php";
+        window.location.href = "/login.php";
     } else {
         alert(response.message);
     }
@@ -42,7 +42,7 @@ var login_success = function (response) {
 
     if (response.success) {
         alert(response.message);
-        window.location.href = "homepage.php";
+        window.location.href = "/";
     } else {
         alert(response.message);
     }
