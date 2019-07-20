@@ -8,13 +8,8 @@
   clear: both;
 }
 .col{
-    box-sizing: border-box;
     float: left;
 }
-
-/*p,span,h4,a{
-    font-family: "Open Sans",sans-serif;
-}*/
 
 .header{
     background-color: white;

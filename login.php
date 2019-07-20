@@ -38,7 +38,7 @@
                 <div class="heading">
                     <h2>Login into Ungineering Account</h2>
                 </div>
-                <form method="post" action="login_submit.php">
+                <form method="post" id="login_form" action="login_submit.php">
                     <div>
                         <p><b>Email</b></p>
                         <input type="text" name="email"/>
@@ -51,7 +51,7 @@
                         <b><input type="submit" class="loginsub" name="submit" value="Login"/></b><br/>
                     </div>
                     <div class="new_user">
-                        <a href="#">New User.Create Account</a>
+                        <a href="/register.php">New User.Create Account</a>
                     </div>
                 </form>
             </div>
@@ -76,6 +76,8 @@
                 <a href="#">queries@Ungneering.com</a>
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/register.js"></script>
     </body>
 </html>
 
