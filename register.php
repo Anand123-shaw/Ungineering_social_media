@@ -38,7 +38,7 @@
                 <div class="heading">
                     <h2>Create New Account at Ungineering</h2>
                 </div>
-                <form method="post" action="smregister_submit.php">
+                <form method="post" id="register_form" action="register_submit.php">
                     <div>
                         <p><b>Name</b></p>
                         <input type="text" name="name"/>
@@ -59,7 +59,7 @@
                         <b><input type="submit" class="regsub" name="submit" value="Create Account"/></b><br/>
                     </div>
                     <div class="existing_user">
-                        <a href="#">Existing User.Login</a>
+                        <a href="/login.php">Existing User.Login</a>
                     </div>
                 </form>
             </div>

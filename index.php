@@ -54,10 +54,10 @@
         ?>
                 <div class="row button_section" >
                     <div class="col" >
-                        <a href="login_form.html"><p>Login</p></a>
+                        <a href="/login.php"><p>Login</p></a>
                     </div>
                     <div class="col" >
-                        <a href="register_form.html"><p>New User</p></a>
+                        <a href="/register.php"><p>New User</p></a>
                     </div>
                 </div>
             </div>
