@@ -21,40 +21,6 @@ p,span,h4,a{
     background-color: white;
     padding-bottom:20px;
 }
-.logo{
-    padding-bottom:19px;
-    padding-top:25px;
-    width:260px;
-    margin: auto;
-}
-.logo > .col:nth-child(1){
-    width:30%;
-    text-align: right;
-}
-.logo > .col:nth-child(2){
-    width:70%;
-    padding-top:11px;
-    text-align: left;
-}
-.logo > .col:nth-child(1) > a > img{
-    margin:0px;
-    width:65%;
-    position: relative;
-    left:2px;
-}
-.tag_name > span{
-    margin:0px;
-    font-size:25px;
-    font-weight: bold;
-    top:6px;
-    right:2px;
-    position: relative;
-}
-.tag_line > span{
-    position: relative;
-    margin:0px;
-    font-size:8px;
-}
 .button_section{
     padding-left:30px;
     padding-right:30px;
@@ -152,49 +118,3 @@ textarea{
     font-size:15px;
     margin-bottom:30px;
 }
-.footer{
-    background-color:rgb(55,55,55);
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:50px;
-    padding-bottom:50px;
-} 
-.footer_row1 > p{
-    font-size:17px;
-    padding-left:3px;
-    margin:0px;
-    margin-left:0px;
-    color: white;
-}
-.footer_row2{
-    margin-bottom:90px;
-    margin-top:15px;
-}
-.footer_row2 > .col:nth-child(1){
-    width:45px;
-}
-.footer_row2 > .col:nth-child(2){
-    width:45px;
-}
-.footer_row2 > .col:nth-child(1) > a > img{
-    width:35px;
-}
-.footer_row2 > .col:nth-child(2) > a > img{
-    width:39px;
-}
-.footer_row3,.footer_row4{
-    text-align: right;
-    padding-bottom:3px;
-}
-.footer_row3 > p{
-    font-size:14px;
-    margin:0px;
-    color: white;    
-}
-.footer_row4 > a{
-    font-size:17px; 
-    color: white;
-    text-decoration: none;
-}
-
-
