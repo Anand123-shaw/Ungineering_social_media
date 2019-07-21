@@ -20,3 +20,5 @@ CREATE TABLE statuses(
     PRIMARY KEY (id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+alter table users modify email varchar(255) not null unique;
