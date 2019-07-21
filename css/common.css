@@ -4,31 +4,35 @@
     width:260px;
     margin: auto;
 }
-.logo > .col:nth-child(1){
+.logo .col:nth-child(1){
     width:30%;
     text-align: right;
 }
-.logo > .col:nth-child(2){
+.logo  .col:nth-child(2){
     width:70%;
     padding-top:11px;
     text-align: left;
 }
-.logo > .col:nth-child(1) > a > img{
+.logo  .col:nth-child(1) > img{
     margin:0px;
     width:65%;
     position: relative;
     left:2px;
 }
+.logo a{
+    color: black;
+}
 .tag_name > span{
     margin:0px;
     font-size:25px;
     font-weight: bold;
-    top:6px;
+    top:3px;
     right:2px;
     position: relative;
 }
 .tag_line > span{
     position: relative;
+    bottom:6px;
     margin:0px;
     font-size:8px;
 }
