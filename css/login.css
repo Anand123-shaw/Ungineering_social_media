@@ -13,45 +13,6 @@
 }
 
 
-.header{
-    background-color: white;
-    padding-bottom:20px;
-}
-.row11{
-    padding-bottom:12px;
-    padding-top:25px;
-    width:260px;
-    margin: auto;
-}
-.row11 > .col:nth-child(1){
-    width:30%;
-    text-align: right;
-}
-.row11 > .col:nth-child(2){
-    width:70%;
-    padding-top:11px;
-    text-align: left;
-}
-.row11 > .col:nth-child(1) > img{
- 
-    margin:0px;
-    width:65%;
-    position: relative;
-    left:2px;
-}
-.row111 > span{
-    margin:0px;
-    font-size:25px;
-    font-weight: bold;
-    top:6px;
-    right:2px;
-    position: relative;
-}
-.row112 > span{
-    position: relative;
-    margin:0px;
-    font-size:8px;
-}
 
 body{
     margin:0px;

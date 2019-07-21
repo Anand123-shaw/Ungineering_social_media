@@ -7,26 +7,14 @@
     </head>
 
     <body>
-        <div class="row header" >
-            <div class="row row11">
-                <div class="col" >
-                    <img src="img/ungineering_logo.svg"/>
-                </div>
-                <div class="col" >
-                    <div class="row row111" >
-                        <span style="color: rgb(233,69,55)">un</span><span>gineering</span>
-                    </div>
-                    <div class="row row112" >
-                        <span>A </span><span style="color: rgb(233,69,55)">bit</span><span> of knowledge is good.A</span><span style="color: rgb(233,69,55)"> byte </span><span>is better</span>
-                    </div>
-                </div> 
-            </div>
-        </div> 
+        <?php
+            include 'header.php';
+        ?> 
                     
         <div class="main">
             <div class="usertype">
                 <div class="user_col existing">
-                    <a href="#">Existing User</a>
+                    <a href="/login.php">Existing User</a>
                 </div>
                     
                 <div class="user_col new">
@@ -65,26 +53,10 @@
             </div>
         </div>
         
-
-         <div class="row row4" >
-            <div class="row row41" >
-                <p>Connect with us at</p>
-            </div>
-            <div class="row row42" >
-                <div class="col">
-                <a href="#" ><img src="img/logo-youtube-png-clipart-11.png"/></a>
-                </div>
-                <div class="col">
-                <a href="#" ><img src="img/facebook_circle_darkblue-512.png"/></a>
-                </div>
-            </div>
-            <div class="row row43" >
-                    <p>For any questions/doubts,write us on -</p>
-            </div>
-            <div class="row row44" >
-                <a href="#">queries@Ungneering.com</a>
-            </div>
-        </div>
+        <?php
+            include 'footer.php';
+        ?>
+        
         <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="js/register.js"></script>
     </body>
