@@ -1,0 +1,184 @@
+*{
+    box-sizing:border-box;
+}
+
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.col{
+    float: left;
+}
+
+.header{
+    background-color: white;
+    padding-bottom:20px;
+}
+.row11{
+    padding-bottom:12px;
+    padding-top:25px;
+    width:260px;
+    margin: auto;
+}
+.row11 > .col:nth-child(1){
+    width:30%;
+    text-align: right;
+}
+.row11 > .col:nth-child(2){
+    width:70%;
+    padding-top:11px;
+    text-align: left;
+}
+.row11 > .col:nth-child(1) > img{
+ 
+    margin:0px;
+    width:65%;
+    position: relative;
+    left:2px;
+}
+.row111 > span{
+    margin:0px;
+    font-size:25px;
+    font-weight: bold;
+    top:6px;
+    right:2px;
+    position: relative;
+}
+.row112 > span{
+    position: relative;
+    margin:0px;
+    font-size:8px;
+}
+
+body{
+    margin:0px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.main{
+    margin:0px 8px;
+    border:solid 1px rgb(230,230,230);
+}
+
+.usertype {
+    padding:0px 25px;
+    margin:25px 0px;
+}
+
+.usertype::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.user_col{
+    width:50%;
+    float:left;
+}
+
+.existing > a{
+    color:rgb(252,35,70);
+}
+
+.new{
+    text-size:25px;
+    text-decoration:underline;
+    text-align:right;
+}
+
+.create_account{
+    text-align:left;
+    padding:15px 25px 60px;
+    background-color:rgb(244,244,244); 
+    border:solid 1px rgb(230,230,230); 
+}
+
+h2{
+    font-size:21px;
+}
+
+/*p{
+    margin-block-start:28px;
+    margin-block-end:8px;
+}*/
+
+.create_account p{
+    margin-top:20px;
+    margin-bottom:8px;
+}
+
+input[type=text],input[type=password]{
+    border:solid 1px red;
+    width:100%;
+    height:38px;
+    border-radius:5px;
+}
+
+.regsub{
+    background-color:rgb(252,35,70);
+    color:white;
+    width:100%;
+    margin:25px 0px 15px;
+    height:38px;
+    border-radius:2px;
+    font-size:15px;
+    border:none;
+}
+
+.existing_user > a{
+    color:rgb(252,35,70);
+}
+
+form{
+    margin-top:23px;
+}
+
+
+
+.row4{
+    background-color:rgb(55,55,55);
+    padding-left:6.95%;
+    padding-right:6.95%;
+    padding-top:13%;
+    padding-bottom:13%;
+} 
+.row41 > p{
+    font-size:17px;
+    padding-left:1%;
+    margin:0px;
+    margin-left:0px;
+    color: white;
+}
+.row42{
+    margin-bottom:25%;
+    margin-top:5%;
+}
+.row42 > .col:nth-child(1){
+    width:14%;
+}
+.row42 > .col:nth-child(2){
+    width:14%;
+}
+.row42 > .col:nth-child(1) > a > img{
+    width:78%;
+}
+.row42 > .col:nth-child(2) > a > img{
+    width:90%;
+}
+.row43,.row44{
+    text-align: right;
+    padding-bottom:1%;
+}
+.row43 > p{
+    font-size:14px;
+    margin:0px;
+    color: white;    
+}
+.row44 > a{
+    font-size:17px; 
+    color: white;
+    text-decoration: none;
+}
+
+
