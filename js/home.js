@@ -1,5 +1,12 @@
 $(document).ready(function () {
     $('#form_submit').submit(function() {
+        var status = $('#stat').val();
+        if(status=="")
+        {
+            $('#error').html("Status can't be blank");
+            $('#error').css("color","red");
+            return false;
+        }
         var url = "homepage_loggedin_submit.php";
         var data = $('#form_submit').serialize();
         $.ajax({

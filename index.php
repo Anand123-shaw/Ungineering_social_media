@@ -26,12 +26,13 @@
                 </div>
             </div>
             <div class="row row2" >
+                <div id="error"></div>
                 <div class="row row21" >
                     <p>Write something here</p>
                 </div>
                 <div class="row row22" >
                     <form  id="form_submit" method="post" action ="homepage_loggedin_submit.php">
-                        <textarea name="status"></textarea>
+                        <textarea id="stat" name="status"></textarea>
                         </br><input  class="submit" type="submit" name="submit" value="post" />
                     </form>     
                 </div>
