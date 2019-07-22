@@ -1,0 +1,108 @@
+body{
+    margin:0px;
+}
+.row{
+    box-sizing: border-box;
+}
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.col{
+    box-sizing: border-box;
+    float: left;
+}
+p,span,h4,a{
+    font-family: "Open Sans",sans-serif;
+    text-decoration: none;
+}
+.header{
+    background-color: white;
+    padding-bottom:20px;
+    border-bottom: solid 1px black;
+}
+
+.button_section{
+    padding-left:30px;
+    padding-right:30px;
+}
+.button_section > .col{
+    width:50%;
+}
+.button_section > .col:nth-child(1)  > p{
+    color: black;
+    margin:0px;
+    font-weight: bold;
+    padding-top:6px;
+    text-decoration: underline;
+}
+.button_section > .col:nth-child(2) > a > p{
+    color: white;
+    background-color:rgb(234,74,76);
+    margin:0px;
+    margin-left:7px;
+    border: solid 1px red;
+    border-radius:2px;
+}
+.button_section p{
+    font-size:16px;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:4px;
+    padding-left:3px;
+    padding-right:3px;
+}
+.button_selector{
+    background-color:rgb(244,244,244); 
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.button_selector > .col:nth-child(1){
+    width:60%;
+}
+.button_selector > .col:nth-child(2){
+    width:40%;
+}
+.button_selector > .col:nth-child(1) > a > p{
+    color: red;
+    margin:0px;
+    text-align: right;
+    text-decoration: underline;
+}
+.button_selector > .col:nth-child(2) > p{
+    color: black;
+    margin:0px;
+    text-align: right;
+    text-decoration: underline;
+}
+.update{
+    text-align: left;
+    padding:15px 30px 120px;
+    background-color:rgb(244,244,244);
+}
+form{
+    margin-top:23px;
+}
+input[type=text],input[type=password]{
+    border:solid 1px red;
+    width:100%;
+    height:38px;
+    border-radius:5px;
+}
+.update_button{
+    border: solid 1px red;
+    width:129px;
+    border-radius:2px;
+    background-color:rgb(234,74,76);
+    font-size:16px;
+    text-align: center;
+    color: white;
+    padding-top:10px;
+    padding-bottom:7px;
+    padding-left:7px;
+    padding-right:7px;
+    margin-top:20px;
+}
+

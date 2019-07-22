@@ -18,7 +18,7 @@
         ?>
                 <div class="row button_section" >
                     <div class="col" >
-                        <a href="#"><p>My Dashboard</p></a>
+                        <a href="dashboard.php"><p>My Dashboard</p></a>
                     </div>
                     <div class="col" >
                         <a href="logout.php"><p>Logout</p></a>
