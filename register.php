@@ -29,19 +29,23 @@
                 <form method="post" id="register_form" action="register_submit.php">
                     <div>
                         <p><b>Name</b></p>
-                        <input type="text" name="name"/>
+                        <input id="name" type="text" name="name"/>
+                        <div id="error_name"></div>
                     </div>
                     <div>
                         <p><b>Email</b></p>
-                        <input type="text" name="email"/>
+                        <input id="email" type="text" name="email"/>
+                        <div id="error_email"></div>
                     </div>
                     <div>
                         <p><b>Password</b></p>
-                        <input type="password" name="password"/>
+                        <input id="password" type="password" name="password"/>
+                        <div id="error_password"></div>
                     </div>
                     <div>
                         <p><b>Confirm Password</b></p>
-                        <input type=password name="con_password"/><br/>
+                        <input id="conf_password" type=password name="con_password"/>
+                        <div id="error_conf_password"></div>
                     </div>
                     <div>
                         <b><input type="submit" class="regsub" name="submit" value="Create Account"/></b><br/>
